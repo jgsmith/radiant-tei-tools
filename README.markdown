@@ -41,16 +41,20 @@ To render a part called 'xml' with the default XSLT:
     <r:tei:render part="xml" />
 
 
-### tei_params
+### ..._params
 
 This part is not rendered, but is parsed as a simple configuration with
 the parameter name and value on a line separated by a colon.  Blank lines
 and lines starting with a hash (#) are ignored.
 
-The settings in the tei_params of a child page override the same settings in
+The name of the part is the same as the part being rendered with the
+added suffix of '_params'.  For example, if rendering a part named 'tei',
+then the parameters are taken from a part named 'tei_params'.
+
+The settings in the ..._params of a child page override the same settings in
 a parent page.
 
-The following is an example of what can be in the 'tei_params' part:
+The following is an example of what can be in the '..._params' part:
 
     ## Comments (lines beginning with '#') and blank lines are ignored
     ##
