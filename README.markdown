@@ -5,7 +5,7 @@ TEI Tools
 
 Use the standard Radiant extension installation process:
 
-    ./script/extension install git://github.com/jgsmith/radiant-tei-tools.git
+    ./script/extension install tei_tools
 
 To add the default XSLT configuration option:
 
