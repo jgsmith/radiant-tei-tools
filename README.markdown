@@ -1,4 +1,4 @@
-Tei Tools
+TEI Tools
 ---------
 
 ## Installation
@@ -11,9 +11,13 @@ To add the default XSLT configuration option:
 
     rake radiant:extensions:tei_tools:migrate
 
+## Dependencies
+
+The TEI Tools extension requires [ruby-xslt][] for the transformation.
+
 ## Configuration
 
-This extension includes a copy of the TEI Consortium's example XSLT for
+This extension includes a copy of the [TEI Consortium][]'s example XSLT for
 transforming TEI into XHTML.  You may change the default XSLT using the
 'tei_tools.xslt' config setting.
 
@@ -155,3 +159,4 @@ The following is an example of what can be in the '..._params' part:
 
 
 [TEI Consortium]: http://www.tei-c.org/
+[ruby-xslt]: http://rubyforge.org/projects/ruby-asp/
